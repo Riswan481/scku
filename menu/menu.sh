@@ -2,7 +2,7 @@
 
 BURIQ () {
     # Mengunduh daftar register dari URL baru dan menyimpannya ke dalam file sementara
-    curl -sS https://raw.githubusercontent.com/scriswan/premiumsc/main/register > /root/tmp
+    curl -sS https://raw.githubusercontent.com/Riswan481/scku/main/register > /root/tmp
     
     # Mendapatkan IP pengguna saat ini
     MYIP=$(curl -sS ipv4.icanhazip.com)
